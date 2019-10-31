@@ -1,5 +1,5 @@
 # transformer_for_chatbot
-chainer implementation of transformer for chatbot.
+chainer implementation of transformer for chatbot.<br>
 this implementation considers the diversity of model's ouput.
 
 # Contents
