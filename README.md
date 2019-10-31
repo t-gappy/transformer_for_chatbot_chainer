@@ -15,7 +15,7 @@ this implementation considers the diversity of model's ouput.
   - layer_normalization_3d.py
   - multi_head_attention.py
 
-# You Must Prepare
+# Must Prepare
 - dataset
 - training code
 - folder "./dataset"
@@ -25,9 +25,9 @@ this implementation considers the diversity of model's ouput.
   - sentencepiece tokenizer's vocab file
 - ./dataset/piece_frequency.txt
   - token frequency file
-  - one line contains the frequency of the token in the same line in .vocab file
-    - if the token "hello" appear 300 times, "300" is in the "hello line".
-    - if you set the "augmentation" arg to True in TransformerConfig class, you should take some step like "calculate expected value".
+  - one line contains the frequency of the token in the same line with .vocab file
+    - if the token "hello" appears 300 times, "300" is in the "hello line".
+    - if you set the "augmentation" arg to True in TransformerConfig class, you should take some steps like "calculate expected value".
 
 # Reference
 - [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
