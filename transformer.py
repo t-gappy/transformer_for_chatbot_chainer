@@ -403,7 +403,7 @@ class Transformer(chainer.Chain):
         batch_size, vocab_size = y.shape
         func_u = eps / vocab_size
 
-        smoothed_t = xp.zeros_like(y).astype(np.float32)
+        smoothed_t = xp.zeros_like(y.data).astype(np.float32)
         smoothed_t[xp.arange(batch_size), t] = 1 - eps# + func_u
         smoothed_t += func_u
 

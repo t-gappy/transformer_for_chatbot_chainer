@@ -29,9 +29,16 @@ this implementation considers the diversity of model's ouput.
     - if the token "hello" appears 300 times, "300" is in the "hello line".
     - if you set the "augmentation" arg to True in TransformerConfig class, you should take some steps like "calculate expected value".
 
+# Module Version in Develop Environment
+- anaconda3-5.2.0
+- chainer 5.2.0
+- numpy 1.15.1
+- sentencepiece 0.1.82
+
 # Reference
 - [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
   - [chainer implementation](https://github.com/soskek/attention_is_all_you_need)
 - [SentencePiece: A simple and language independent subword tokenizer and detokenizer for Neural Text Processing](https://arxiv.org/abs/1808.06226)
-- [Another Diversity-Promoting Objective Function for Neural Dialogue Generation](https://arxiv.org/abs/1811.08100)
 - [Subword Regularization: Improving Neural Network Translation Models with Multiple Subword Candidates](https://www.aclweb.org/anthology/P18-1007/)
+- [Another Diversity-Promoting Objective Function for Neural Dialogue Generation](https://arxiv.org/abs/1811.08100)
+- [On Layer Normalization in the Transformer Architecture](https://openreview.net/forum?id=B1x8anVFPr)
